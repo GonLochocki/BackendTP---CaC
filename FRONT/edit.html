@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar paciente</title>
+</head>
+<body>
+
+    <h1>Actualización de datos</h1>
+    
+    <form id="formulario-edicion">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre...">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido...">
+        <label for="dni">Documento</label>
+        <input type="text" name="dni" id="dni" placeholder="Documento...">
+        <button type="submit">Actualizar paciente</button>
+    </form>
+
+    <div id="mensaje"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./edit.js"></script>
+</body>
+</html>

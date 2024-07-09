@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacientes</title>
+  </head>
+  <body>
+    <h1>Listado de pacientes</h1>
+
+    <form id="formulario-pacientes">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre..." />
+      <label for="apellido">Apellido</label>
+      <input
+        type="text"
+        name="apellido"
+        id="apellido"
+        placeholder="Apellido..."
+      />
+      <label for="dni">Documento</label>
+      <input type="text" name="dni" id="dni" placeholder="Documento..." />
+      <button type="submit">Crear paciente</button>
+    </form>
+
+    <br />
+    <br />
+
+    <table>
+      <thead>
+        <th>Nombre</th>
+        <th>apellido</th>
+        <th>Dni</th>
+        <th>Acciones</th>
+      </thead>
+      <tbody id="body-tabla-pacientes"></tbody>
+    </table>
+
+ 
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
