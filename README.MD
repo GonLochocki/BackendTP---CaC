@@ -1,0 +1,1 @@
+La carpeta data contiene el schema de la tabla pacientes en la base de datos.
